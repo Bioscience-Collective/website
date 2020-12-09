@@ -1,0 +1,17 @@
+$shadow1: #ed254d53
+$shadow2: #ed254dae
+    
+.button
+    @apply bg-primary text-white font-bold py-2 rounded px-8
+    box-shadow: 0 4px 6px $shadow1, 0 1px 3px $shadow2
+    border-radius: 4px
+
+.button:hover
+    transition-timing-function: ease
+    transition: 0.2s
+    box-shadow: 0 4px 6px $shadow1, 0 1px 3px $shadow2
+
+.button:not(:hover)
+    transition-timing-function: ease
+    transition: 0.2s
+    box-shadow: 0 4px 6px $shadow1, 0 1px 3px $shadow2

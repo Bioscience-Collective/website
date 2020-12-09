@@ -1,0 +1,26 @@
+@tailwind base
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+html
+  @apply subpixel-antialiased
+  background-color: #5cdb95
+
+body 
+  color: #153967
+  font-family: 'Jost', "Avenir Next", monospace
+  font-variant-ligatures: no-common-ligatures
+
+/* Start purging... */
+@tailwind components
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+.btn-blue 
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded
+
+/* Start purging... */
+@tailwind utilities
+/* Stop purging. */
+
+/* Your own custom utilities */
