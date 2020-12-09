@@ -20,23 +20,32 @@ const team = [
   {
     name: "Tobias Huang",
     link: "https://www.linkedin.com/in/tobias-huang-7134a4181/",
-    role: "director",
+    role: "director/founder",
   },
   {
     name: "Claire_Wang",
     link: "https://www.linkedin.com/in/claire-bookworm/",
-    role: "director",
+    role: "director/tech",
   }, 
-
   {
-    name: "Yashas",
-    link: "https://google.com",
-    role: "director",
+    name: "Yashas Ravi",
+    link: "https://www.linkedin.com/in/yashas-ravi-789890200",
+    role: "director/content",
   },
   {
     name: "Leila Blal",
     link: "https://google.com",
     role: "livestream",
+  },
+  {
+    name: "Rohan S",
+    link: "https://google.com",
+    role: "content",
+  },
+  {
+    name: "Sanjay Amrithaj",
+    link: "https://google.com",
+    role: "content",
   },
 ];
 
@@ -47,12 +56,12 @@ export default function Footer() {
         <p>
           Got ideas, projects, or connections that you wish to share with the
           entire hackathon organizers' community? Let's talk! Tweet at{" "}
-          <a className="font-bold" href="https://twitter.com/itsmingjie">
-            @itsmingjie
+          <a className="font-bold" href="https://twitter.com/clairebookworm1">
+            @clairebookworm1
           </a>{" "}
           or email{" "}
-          <a className="font-bold" href="mailto:mingjie@m3ta.io">
-            mingjie@m3ta.io.
+          <a className="font-bold" href="mailto:bioscicollective@gmail.com">
+          bioscicollective@gmail.com.
           </a>
         </p>
       </CMDLine>
@@ -63,17 +72,20 @@ export default function Footer() {
             prospectus
           </a>{" "}
           and reach out to{" "}
-          <a className="font-bold" href="mailto:mingjie@m3ta.io">
-            mingjie@m3ta.io
+          <a className="font-bold" href="mailto:bioscicollective@gmail.com">
+            bioscicollective@gmail.com
           </a>{" "}
           to discuss more!
         </p>
       </CMDLine>
-      <CMDLine cmd="echo $M3TA_FINANCE">
+      <CMDLine cmd="echo $BSC_FINANCE">
         <p>
-          M3TA is fiscally sponsored by The Hack Foundation, a 501(c)(3)
-          nonprofit. We pledge to make our finances 100% tranpent after the
-          event.
+          Bioscience Collective is fiscally sponsored by The Hack Foundation, a 501(c)(3) nonprofit. We pledge to make our finances 100% transparent.
+        </p>
+      </CMDLine>
+      <CMDLine cmd="echo $DONATE">
+        <p>
+          We'd appreciate any support! Donate at <a href="https://bank.hackclub.com/donations/start/bioscience-collective">bank.hackclub.com/donations/start/bioscience-collective</a>! All donations are tax-deductible.
         </p>
       </CMDLine>
       <CMDLine cmd="cat /etc/passwd">
