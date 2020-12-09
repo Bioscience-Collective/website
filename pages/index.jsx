@@ -19,6 +19,9 @@ export default function IndexPage() {
       <h1 className="pt-10 text-3xl text-primary font-bold pb-3">
         Who We Are.
       </h1>
+      <p>
+      We are a group of student scientists committed to making the life sciences accessible to all.<br/> As biology is becoming increasingly relevant, it is imperative that everyone is invited and heard.<br/> We take pride in our shared vision and values, as well as our commitment to equity and workplace democracy.
+      </p>
       <CTAButton
         text="Signup to start a Chapter"
         href="https://airtable.com/shrRAUSyzeWc5Xw9z"

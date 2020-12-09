@@ -1,3 +1,3 @@
-# M3TA
+# Bioscience Collective
 _____
-Hackathon for hackathons
+Biology for all.

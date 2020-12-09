@@ -5,7 +5,7 @@ const CMDLine = (props) => {
     <div className={[Styles.cmdBlock, "mt-3"].join(" ")}>
       <p className="cmdLine">
         <span className="text-green-500">➜</span>
-        <span className="text-teal-300"> m3ta.io</span>
+        <span className="text-teal-300"> bsc</span>
         <span className="text-blue-500"> git:(</span>
         <span className="text-red-500 font-bold">main</span>
         <span className="text-blue-500">):</span>
@@ -18,19 +18,25 @@ const CMDLine = (props) => {
 
 const team = [
   {
-    name: "Mingjie_Jiang",
-    link: "https://twitter.com/itsmingjie",
+    name: "Tobias Huang",
+    link: "https://www.linkedin.com/in/tobias-huang-7134a4181/",
     role: "director",
   },
   {
     name: "Claire_Wang",
-    link: "https://twitter.com/clairebookworm1",
-    role: "marketing",
+    link: "https://www.linkedin.com/in/claire-bookworm/",
+    role: "director",
+  }, 
+
+  {
+    name: "Yashas",
+    link: "https://google.com",
+    role: "director",
   },
   {
-    name: "James_Click",
-    link: "https://twitter.com/realJamesClick",
-    role: "tech",
+    name: "Leila Blal",
+    link: "https://google.com",
+    role: "livestream",
   },
 ];
 
