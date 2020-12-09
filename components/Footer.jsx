@@ -52,10 +52,9 @@ const team = [
 export default function Footer() {
   return (
     <div className="container mx-auto py-20 text-sm">
-      <CMDLine cmd="echo $M3TA_IDEAS">
+      <CMDLine cmd="echo $BSC_IDEAS">
         <p>
-          Got ideas, projects, or connections that you wish to share with the
-          entire hackathon organizers' community? Let's talk! Tweet at{" "}
+          Got ideas, projects, or connections that you wish to share with the? Let's talk! Tweet at{" "}
           <a className="font-bold" href="https://twitter.com/clairebookworm1">
             @clairebookworm1
           </a>{" "}
